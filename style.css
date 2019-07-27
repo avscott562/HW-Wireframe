@@ -4,6 +4,7 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -11,23 +12,47 @@ header, nav, section, aside, footer {
     background: #ebebeb;
 }
 
-header {
-    width: 100%;
-    padding: 20px;
+header, nav, footer {
+    padding: 30px;
     margin: 20px 0;
-    text-align: center;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 495px;
+    height: 210px;
+    float: left;
+    margin-right: 40px;
+    padding-top: 40px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
+    margin: 20px 10px 10px 10px;
+    padding: 10px;
+    width: 455px;
 }
 
 h1, p {
+    width: 415px;
     color: #777;
     background: #ebebeb;
+    padding: 10px;
+    margin: 10px;
 }
 
-section {
-    width: 495px;
+aside {
+    clear: both;
+    width: 425px;
+    height: 210px;
+    margin: 0;
+    padding: 40px 0 0 0;
 }
